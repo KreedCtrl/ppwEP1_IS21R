@@ -1,34 +1,35 @@
 body{
     color:white;
-    margin: 2em;
-    padding: 2em;
+    margin: 10% 10%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 nav{
-    padding-left: 10em;
-    padding-right: 10em;
+    max-width:1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
 }
 div{
-
+    align-items: center;
+    justify-content: center;
 }
 
 span{
     display: flex;
     justify-content: space-between;
 }
-
-.right-column{
-
+header{
+    align-items: center;
 }
 .left-column{
-
+    width: 35%;
 }
+.right-column{
+    width: 55%;
+}
+
 header{
     color: #666666;
     background-color: #f8f8f8;
@@ -36,7 +37,7 @@ header{
     padding: 15px 29px 15px 15px;
 
 }
-sort{
+.sort{
 
 }
 
@@ -52,16 +53,33 @@ button.inactive{
 
 button.active{
     font-size: 16px;
-    background-color: #25975A;
+    line-height: 1.5;
+    background-color: white;
     color: black;
     font-weight:bold;
     border: none;
-    padding: 0px, 30px;
-    text-transform: none;
+
 }
 
 .switch{
-    background-color: black;
-    padding: 15px 29px 15px 15px;
-    margin: 0px 0px 20px;
+    width: 10%;
+    background-color: red;
+    padding: 10px;
+    margin: 10px 0;
+}
+.search{
+    display: flex; /* Aranjează logo-ul și textul pe orizontală */
+    align-items: center; /* Centrează vertical conținutul */
+    background-color: white; /* Fundal alb */
+    border: 1px solid #ccc; /* Bordură subțire gri */
+    padding: 10px 20px; /* Spațiu interior */
+    border-radius: 5px; /* Colțuri rotunjite */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.logo{
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
 }
