@@ -86,7 +86,7 @@ button.active{
     display: flex;
     justify-content: space-between;
     background-color: #f8f8f8;
-    margin: 0;
+    margin-top: 40px;
     padding: 0;
 }
 .search-text{
@@ -100,6 +100,28 @@ button.active{
 .search-image{
     scale: 50%;
 }
+.results{
+    list-style: none;
+    height: 100px;
+    background-color: #f8f8f8;
+    color:#666666;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.results-active{
+    background-color: #25975A;
+    color: #ffffff;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    
+}
+.results-inactive{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+
 .logo{
     width: 18%;
 }
