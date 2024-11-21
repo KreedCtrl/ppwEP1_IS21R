@@ -79,15 +79,15 @@ button.active{
 }
 
 .search{
-    display: flex; /* Aranjează logo-ul și textul pe orizontală */
-    align-items: center; /* Centrează vertical conținutul */
-    background-color: white; /* Fundal alb */
-    border: 1px solid #ccc; /* Bordură subțire gri */
-    padding: 10px 20px; /* Spațiu interior */
-    border-radius: 5px; /* Colțuri rotunjite */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    margin: 10px 10px;
 }
-
+.search-text{
+    color: #666666;
+}
 .logo{
     width: 20%;
     
