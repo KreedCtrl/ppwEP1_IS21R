@@ -139,10 +139,49 @@ button.active{
     padding-left: 5px;
 }
 
-.tabel{
-
+table{
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid;
+    display: block;
+    justify-content: center;
 }
-
+th{
+    background-color: #25975A;
+}
+td{
+    border:  1px solid #000000;
+    padding-left: 15px;
+    padding-right: 5;
+}
+.tabel-zile{
+    width: 30%;
+    height: 20px;
+}
+.tabel-perechi{
+    width: 40px;
+}
+.tabel-color-1{
+ background-color: #a3f1bc;
+}
+.tabel-color-2{
+    background-color: #f2d6f8;
+}
+.tabel-color-3{
+    background-color: #ff8000;
+}
+.tabel-color-4{
+    background-color: #d3d3d3;
+}
+.tabel-color-5{
+    background-color: #004080;
+}
+.tabel-color-6{
+    background-color: #FFFF00;
+}
+.tabel-color-7{
+    background-color: #408080;
+}
 .logo{
     width: 18%;
 }
