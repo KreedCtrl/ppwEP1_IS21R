@@ -209,6 +209,33 @@ td{
 .tabel-color-7{
     background-color: #408080;
 }
+.grid-tabel{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 10% 10% 10% 10% 10% 10% 10%;
+    text-align: center;
+}
+.grid-ore{
+    background-color: #25975A;
+    color: white;
+    border: 1px solid #ffffff;
+}
+.grid-zile{
+    background-color: #25975A;
+    color: white;
+    border: 1px solid #ffffff;
+}
+.grid-perechi{
+    background-color: #004080;
+    color: white;
+    border: 1px solid #000000;
+}
+.grid-prechi-empty{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+
 
 .legenda{
     display: flex;
@@ -284,3 +311,4 @@ td{
     width: 100%;
 color: #000000;
 text-align: center;
+}
