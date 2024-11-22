@@ -13,15 +13,18 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .left-column{
     width: 35%;
 }
+
 .right-column{
     width: 55%;
     display: inline;
     justify-content: space-between;
     align-items: center;
 }
+
 .title{
     text-align: center;
     padding: 15px 0;
@@ -66,6 +69,7 @@ button.active{
     display: flex;
     margin: 20px 0 0 0;
 }
+
 .regim-text{
     height: 9px;
     color: #ffffff;
@@ -79,6 +83,7 @@ button.active{
     padding: 5px;
     margin: 4px 20px;
 }
+
 .switch-intern{
     height: 100%;
     width: 50%;
@@ -93,6 +98,7 @@ button.active{
     margin-top: 40px;
     padding: 0;
 }
+
 .search-text{
     display: flex;
     color: #000000;
@@ -101,9 +107,11 @@ button.active{
     font-weight: bold;
     align-items: center;
 }
+
 .search-image{
     scale: 50%;
 }
+
 .results{
     list-style: none;
     height: 100px;
@@ -113,6 +121,7 @@ button.active{
     font-size: 15px;
     margin-top: 20px;
 }
+
 .results-active{
     background-color: #25975A;
     color: #ffffff;
@@ -120,6 +129,7 @@ button.active{
     padding-top: 3px;
     
 }
+
 .results-inactive{
     padding-bottom: 3px;
     padding-top: 3px;
@@ -134,6 +144,7 @@ button.active{
     margin-top: 20px;
     padding-left: 5px;
 }
+
 .select-saptamana{
     height: 40px;
     width: 100%;
@@ -150,42 +161,54 @@ table{
     display: block;
     justify-content: center;
 }
+
 th{
     background-color: #25975A;
 }
+
 td{
     border:  1px solid #000000;
     padding-left: 15px;
     padding-right: 5;
 }
+
 .tabel-zile{
     width: 30%;
     height: 20px;
 }
+
 .tabel-perechi{
     width: 40px;
 }
+
 .tabel-color-1{
  background-color: #a3f1bc;
 }
+
 .tabel-color-2{
     background-color: #f2d6f8;
 }
+
 .tabel-color-3{
     background-color: #ff8000;
 }
+
 .tabel-color-4{
     background-color: #d3d3d3;
 }
+
 .tabel-color-5{
     background-color: #004080;
 }
+
 .tabel-color-6{
     background-color: #FFFF00;
 }
+
 .tabel-color-7{
     background-color: #408080;
 }
+
 .legenda{
     display: flex;
     justify-content:center;
@@ -197,9 +220,11 @@ td{
     flex-wrap: wrap;
     padding: 5px;
 }
+
 .legenda p{
     margin: 10px;
 }
+
 .download{
     height: 23px;
     display: flex;
@@ -207,21 +232,39 @@ td{
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
+    list-style: none;
 }
+
 .orar{
+    display: flex;
     background-color:#25975A;
     color: #ffffff;
-    border: 1px #ffffff;
 }
+
 .examene{
+    display: flex;
     background-color:#F0506E ;
     color: #ffffff;
+    
 }
+
 .planificare{
+    display: flex;
     background-color:#7b4669 ;
     color: #ffffff;
 }
 
+.advertisment{
+    width: 100%;
+    height: 54px;
+    color: #32d296;
+    background-color: #edfbf6;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
 .logo{
+    
     width: 18%;
 }
