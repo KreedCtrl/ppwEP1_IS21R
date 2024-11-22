@@ -179,6 +179,7 @@ td{
 
 .tabel-perechi{
     width: 40px;
+    text-align: center;
 }
 
 .tabel-color-1{
@@ -274,12 +275,12 @@ td{
     font-size: 16px;
     font-weight: bold;
     width: 100%;
-
+    text-align: center;
 }
-.tabel-ore{
-    width: 30%;
+.ora{
+    width: 80px;
 }
 .tabel-orar{
     width: 100%;
 color: #000000;
-}
+text-align: center;
