@@ -346,13 +346,18 @@ text-align: center;
 .grid-tabel-right{
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     text-align: center;
 }
 .grid-ore-right{
  background-color: #25975A;
+ border: 1px solid #ffffff;
+ padding-top: 5%;
+ padding-bottom: 5%;
 }
 .grid-info-right{
- background-color: #ffffff;
+ background-color: #ffffff; 
+ line-height: 90%;
  color: black;
+ border: 1px solid #000000;
 }
