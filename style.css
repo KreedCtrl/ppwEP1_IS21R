@@ -334,14 +334,6 @@ td{
     width: 100%;
     text-align: center;
 }
-.ora{
-    width: 80px;
-}
-.tabel-orar{
-    width: 100%;
-color: #000000;
-text-align: center;
-}
 
 .grid-tabel-right{
     margin-top: 20px;
@@ -352,12 +344,12 @@ text-align: center;
 .grid-ore-right{
  background-color: #25975A;
  border: 1px solid #ffffff;
- padding-top: 5%;
+ padding-top: 10%;
  padding-bottom: 5%;
 }
 .grid-info-right{
  background-color: #ffffff; 
- line-height: 90%;
+ line-height: 95%;
  color: black;
  border: 1px solid #000000;
 }
